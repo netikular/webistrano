@@ -1,5 +1,8 @@
 ActionController::Routing::Routes.draw do |map|
   # The priority is based upon order of creation: first created -> highest priority.
+
+  #artifacts
+  map.connect 'artifacts/:application/:artifact', :requirements => { :artifact => /\w+(\.+\w+)?/ }, :controller => 'artifacts', :action => 'show', :conditions => { :method => :get }
   
   # Sample of regular route:
   # map.connect 'products/:id', :controller => 'catalog', :action => 'view'

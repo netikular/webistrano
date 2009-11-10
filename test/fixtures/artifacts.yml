@@ -1,0 +1,8 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  application: bleh
+  path: /tmp/
+#
+# two:
+#   column: value
